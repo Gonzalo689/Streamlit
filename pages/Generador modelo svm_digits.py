@@ -15,6 +15,7 @@ mensaje_espera = st.empty()
 # Verificar si el modelo ya existe
 if os.path.exists(modelo_filename):
     st.success("✅ El modelo ya ha sido entrenado y guardado como 'svm_digits_model.pkl'.")
+    st.balloons()
 else:
     mensaje_espera.warning("⏳ Esperando la creación del modelo...")
     with st.spinner("⚙️ Entrenando el modelo SVM, por favor espera..."):
