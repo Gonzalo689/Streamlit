@@ -5,8 +5,7 @@ import streamlit as st
 st.set_page_config(
     page_title="Inicio - Predicción de Dígitos",
     initial_sidebar_state="collapsed",
-    layout="wide",
-    theme="light",
+    layout="wide"
 )
 
 st.title("Modelo SVM (Support Vector Machine)")
