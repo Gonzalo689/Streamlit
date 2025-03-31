@@ -1,13 +1,13 @@
 import streamlit as st
 
+
 # Esto debe ir primero
 st.set_page_config(
     page_title="Inicio - Predicción de Dígitos",
     initial_sidebar_state="collapsed",
-    layout="wide" 
+    layout="wide",
+    theme="light",
 )
-
-
 
 st.title("Modelo SVM (Support Vector Machine)")
 
