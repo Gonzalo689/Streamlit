@@ -1,7 +1,5 @@
 import streamlit as st
-import cv2
 import numpy as np
-import matplotlib.pyplot as plt
 from PIL import Image
 from streamlit_drawable_canvas import st_canvas
 import pickle
